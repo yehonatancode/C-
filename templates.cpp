@@ -1,14 +1,9 @@
 //working with templates
 //motive - instead of defining a function each time
 //for multiple vars, we define it once in a generic way.
+#include "templates.h"
 #include <iostream>
 using namespace std;
-
-template <typename T> void swap(T& a, T& b){
-    T tmp = a;
-    a=b;
-    b=tmp;
-}
 
 int main(){
     string fn = "Johnas";
